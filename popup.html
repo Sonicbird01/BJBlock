@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <div class="titleContainer">
+      <img src="images/icon-48.png" alt="BJBLOCK 아이콘" class="icon" />
+      <h1 class="title"><span class="titleSpan">BJ</span>Block</h1>
+    </div>
+    <div>
+      <p>차단하고 싶은 BJ의 아이디를 입력해주세요</p>
+      <input
+        type="text"
+        id="bjId"
+        class="bjId"
+        maxlength="12"
+        autocomplete="off"
+      />
+      <button type="button" id="block">차단</button>
+    </div>
+    <div>
+      <p class="valid" id="invalid">유효한 아이디가 아닙니다</p>
+    </div>
+    <div>
+      <p class="nowBlockTitle">현재 차단된 BJ의 아이디</p>
+      <p id="blockStatus">현재 차단된 BJ가 없습니다</p>
+      <ul id="blockList"></ul>
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>

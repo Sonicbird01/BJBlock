@@ -1,0 +1,56 @@
+body {
+  width: 280px;
+  background-color: #2b2b2b;
+  color: white;
+  text-align: center;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+}
+
+.title {
+  margin-left: 1rem;
+  color: white;
+}
+
+.clearBtn {
+  margin-left: 1rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.titleSpan {
+  color: goldenrod;
+}
+
+.blocking {
+  display: none;
+}
+
+.nonBlocking {
+  display: inline;
+}
+
+.nowBlockTitle {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.invalid {
+  display: inline;
+  color: red;
+}
+
+.valid {
+  display: none;
+}
